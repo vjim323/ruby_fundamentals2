@@ -18,3 +18,13 @@ puts " "
 
 students["cohort4"] = 43
 cohort_students(students)
+
+puts " "
+
+puts students.key(34)
+puts students.key(42)
+puts students.key(22)
+puts students.key(43)
+
+puts " "
+
