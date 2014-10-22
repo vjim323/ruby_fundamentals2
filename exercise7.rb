@@ -6,18 +6,25 @@ students = {
 	:cohort3 => 22
 }
 
-def cohort_students(cohort) 
+def increase_students(cohort)
 	cohort.each do |key, value|
+		cohort[key] = value * 1.05
+	end
+end
+
+def print_students(cohort) 
+	cohort.each do |key, value|
+		#value = value * 1.05
 		puts "#{key}: #{value} students"
 	end
 end
 
-cohort_students(students)
+print_students(students)
 
 puts " "
 
 students["cohort4"] = 43
-cohort_students(students)
+print_students(students)
 
 puts " "
 
@@ -28,3 +35,5 @@ puts students.key(43)
 
 puts " "
 
+increase_students(students)
+print_students(students)
