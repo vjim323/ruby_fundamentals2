@@ -36,3 +36,8 @@ puts " "
 
 increase_students(students)
 print_students(students)
+
+puts " "
+
+students.delete(:cohort2)
+print_students(students)
