@@ -14,7 +14,6 @@ end
 
 def print_students(cohort) 
 	cohort.each do |key, value|
-		#value = value * 1.05
 		puts "#{key}: #{value} students"
 	end
 end
