@@ -10,6 +10,7 @@ end
 # display_groceries(grocery_list)
 
 grocery_list << "rice"
+grocery_list.delete("broccoli") # my list didn't have salmon so I deleted broccoli instead
 
 display_groceries(grocery_list.sort)
 
