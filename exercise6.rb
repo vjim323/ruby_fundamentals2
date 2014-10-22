@@ -9,9 +9,9 @@ end
 
 # display_groceries(grocery_list)
 
-# grocery_list << "rice"
+grocery_list << "rice"
 
-# display_groceries(grocery_list)
+display_groceries(grocery_list.sort)
 
 # puts grocery_list.length
 
@@ -21,5 +21,4 @@ end
 # 	puts "You don't need to pick up bananas today."
 # end
 
-puts grocery_list[1]
-
+# puts grocery_list[1]
