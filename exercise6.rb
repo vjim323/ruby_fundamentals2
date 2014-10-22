@@ -12,3 +12,5 @@ display_groceries(grocery_list)
 grocery_list << "rice"
 
 display_groceries(grocery_list)
+
+puts grocery_list.length
