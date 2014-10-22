@@ -14,3 +14,7 @@ end
 
 cohort_students(students)
 
+puts " "
+
+students["cohort4"] = 43
+cohort_students(students)
