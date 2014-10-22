@@ -41,3 +41,12 @@ puts " "
 
 students.delete(:cohort2)
 print_students(students)
+
+puts " "
+
+total_students = 0
+students.each do |key, value|
+	total_students = total_students + value
+end
+
+puts "The total number of students after deleting cohort 2 is #{total_students}."
